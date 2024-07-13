@@ -18,8 +18,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'TechVJBot')
-API_ID = int(environ.get('API_ID', '22182189'))
-API_HASH = environ.get('API_HASH', '5e7c4088f8e23d0ab61e29ae11960bf5')
+API_ID = int(environ.get('API_ID', '14656169'))
+API_HASH = environ.get('API_HASH', 'a2d5b45af5a62c674591e4eeeddc96d9')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7482051304:AAHULGyvbJZUHWu9p75OuaWhyUhW4gHyn-U")
 
 # Bot settings
