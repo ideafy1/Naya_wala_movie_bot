@@ -1,7 +1,7 @@
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
-
+import asyncio
 import logging, re, asyncio
 from utils import temp
 from info import ADMINS
@@ -181,6 +181,7 @@ async def index_files_to_db(lst_msg_id, chat, msg, bot):
                     duplicate += 1
                 elif vnay == 2:
                     errors += 1
+                await asyncio.sleep(0.2)
         except Exception as e:
             logger.exception(e)
             await msg.edit(f'Error: {e}')
