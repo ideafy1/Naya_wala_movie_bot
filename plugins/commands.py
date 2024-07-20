@@ -48,8 +48,8 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
+                InlineKeyboardButton('🔎 Search', url="https://telegram.me/yedekho"),
+                InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('ℹ️ Help', callback_data='help'),
                 InlineKeyboardButton('💛 Donate', callback_data='about')
@@ -62,8 +62,8 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
+                InlineKeyboardButton('🔎 Search', url="https://telegram.me/yedekho"),
+                InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('ℹ️ Help', callback_data='help'),
                 InlineKeyboardButton('💛 Donate', callback_data='about')
@@ -120,8 +120,8 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
+                InlineKeyboardButton('🔎 Search', url="https://telegram.me/yedekho"),
+                InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('ℹ️ Help', callback_data='help'),
                 InlineKeyboardButton('💛 Donate', callback_data='about')
@@ -134,8 +134,8 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
+                InlineKeyboardButton('🔎 Search', url="https://telegram.me/yedekho"),
+                InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('ℹ️ Help', callback_data='help'),
                 InlineKeyboardButton('🔥 Donate', callback_data='about')
@@ -173,8 +173,8 @@ async def start(client, message):
                 buttons = [[
                     InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('🔎 Search', url="https://telegram.me/yedekho"),
+                    InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('ℹ️ Help', callback_data='help'),
                     InlineKeyboardButton('💛 Donate', callback_data='about')
@@ -187,8 +187,8 @@ async def start(client, message):
                 buttons = [[
                     InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('Eᴀʀɴ', callback_data="shortlink_info"),
-                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('🔎 Search', url="https://telegram.me/yedekho"),
+                    InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('ℹ️ Help', callback_data='help'),
                     InlineKeyboardButton('💛 Donate', callback_data='about')
