@@ -61,8 +61,31 @@ PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) #
 # If PREMIUM_AND_REFERAL_MODE is True Then Fill Below Variable, If Flase Then No Need To Fill.
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month')
-PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/55749b0d3eaee3a5b958b.jpg')
-PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs - \n\n- 30ʀs - 1 ᴡᴇᴇᴋ\n- 50ʀs - 1 ᴍᴏɴᴛʜs\n- 120ʀs - 3 ᴍᴏɴᴛʜs\n- 220ʀs - 6 ᴍᴏɴᴛʜs\n\n🎁 ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs 🎁\n\n○ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ\n○ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ\n○ ᴅɪʀᴇᴄᴛ ғɪʟᴇs\n○ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ\n○ ʜɪɢʜ-sᴘᴇᴇᴅ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ\n○ ᴍᴜʟᴛɪ-ᴘʟᴀʏᴇʀ sᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋs\n○ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs\n○ ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ\n○ ʀᴇǫᴜᴇsᴛ ᴡɪʟʟ ʙᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ 1ʜ ɪꜰ ᴀᴠᴀɪʟᴀʙʟᴇ\n\n✨ ᴜᴘɪ ɪᴅ - <code>jivshn@okaxis</code>\n\nᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ /myplan\n\n💢 ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ\n\n‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ</b>')
+PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/c3af4570243cd44201cc3.jpg')
+PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '𝖡𝖾𝗌𝗍 𝖠𝗏𝖺𝗂𝗅𝖺𝖻𝗅𝖾 𝗉𝗅𝖺𝗇𝗌 👇🏻🎉
+
+39₹ - 1 𝗐𝖾𝖾𝗄  😌
+59₹ - 1 𝗆𝗈𝗇𝗍𝗁 😍
+139₹ - 3 𝗆𝗈𝗇𝗍𝗁 🤩
+220₹ - 6 𝗆𝗈𝗇𝗍𝗁 🥳
+
+⭐ 𝖯𝗋𝖾𝗆𝗂𝗎𝗆 𝖿𝖾𝖺𝗍𝗎𝗋𝖾𝗌 😁😎
+
+👉🏻 1 - 𝖭𝗈 𝗇𝖾𝖾𝖽 𝗍𝗈 𝗏𝖾𝗋𝗂𝖿𝗒 
+👉🏻 2 - 𝖭𝗈 𝗇𝖾𝖾𝖽 𝗍𝗈 𝗈𝗉𝖾𝗇 𝗅𝗂𝗇𝗄
+👉🏻 3 - 𝖣𝗂𝗋𝖾𝖼𝗍 𝖿𝗂𝗅𝖾𝗌
+👉🏻 4 - 𝖠𝖽-𝖿𝗋𝖾𝖾 𝖤𝗑𝗉𝖾𝗋𝗂𝖾𝗇𝖼𝖾
+👉🏻 5 - 𝖧𝗂𝗀𝗁 - 𝗌𝗉𝖾𝖾𝖽 𝖽𝗈𝗐𝗇𝗅𝗈𝖺𝖽 
+👉🏻 6 - 𝖬𝗎𝗅𝗍𝗂 - 𝗉𝗅𝖺𝗒𝖾𝗋 𝗌𝗍𝗋𝖾𝖺𝗆𝗂𝗇𝗀 𝗅𝗂𝗇𝗄𝗌
+👉🏻 7 - 𝖴𝗇𝗅𝗂𝗆𝗂𝗍𝖾𝖽 𝗆𝗈𝗏𝗂𝖾𝗌 & 𝗌𝖾𝗋𝗂𝖾𝗌
+👉🏻 8 - 𝖥𝗎𝗅𝗅 𝖺𝖽𝗆𝗂𝗇 𝗌𝗎𝗉𝗉𝗈𝗋𝗍
+👉🏻 9 - 𝖳𝗈𝗉 𝗉𝗋𝗂𝗈𝗋𝗂𝗍𝗒 𝖿𝗈𝗋 𝗂𝗌𝗌𝗎𝖾 𝗋𝖾𝗌𝗈𝗅𝗏𝗂𝗇𝗀
+
+🎉 𝖴𝖯𝖨 - <code>ADITYASINGH102@JIO</code>
+
+✅ 𝖢𝗁𝖾𝖼𝗄 𝗒𝗈𝗎𝗋 𝖺𝖼𝗍𝗂𝗏𝖾 𝗉𝗅𝖺𝗇 - /myplan
+
+𝖲𝖾𝗇𝖽 𝗌𝖼𝗋𝖾𝖾𝗇𝗌𝗁𝗈𝗍 𝖺𝖿𝗍𝖾𝗋 𝖯𝖺𝗒𝗆𝖾𝗇𝗍 ℹ️')
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'kingvj01') # owner username without @
 
 # Links
