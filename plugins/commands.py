@@ -30,7 +30,7 @@ async def start(client, message):
             InlineKeyboardButton('👀 Support', url="https://t.me/vj_bot_disscussion"),
             InlineKeyboardButton('😁 Yedekho', url='https://t.me/vj_bots')
         ],[
-            InlineKeyboardButton('🎉 Recommendations', url=CHNL_LNK)
+            InlineKeyboardButton('🎉 Recommendations', url="https://telegram.me/yedekho_in")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -54,7 +54,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('⭐ Get premium for free ⭐', callback_data='subscription')
             ],[
-                InlineKeyboardButton('🎉 Recommendations', url=CHNL_LNK)
+                InlineKeyboardButton('🎉 Recommendations', url="https://telegram.me/yedekho_in")
             ]]
         else:
             buttons = [[
@@ -64,7 +64,7 @@ async def start(client, message):
                 InlineKeyboardButton('ℹ️ Help', callback_data='help'),
                 InlineKeyboardButton('💛 Donate', callback_data='about')
             ],[
-                InlineKeyboardButton('🎉 Recommendations', url=CHNL_LNK)
+                InlineKeyboardButton('🎉 Recommendations', url="https://telegram.me/yedekho_in")
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
@@ -550,7 +550,7 @@ async def start(client, message):
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = '@VJ_Bots  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+            title = ' ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
@@ -574,7 +574,7 @@ async def start(client, message):
             pass
         return await message.reply('No such file exist.')
     files = files_[0]
-    title = '@VJ_Bots  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
+    title = ' ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
     size=get_size(files.file_size)
     f_caption=files.caption
     if CUSTOM_FILE_CAPTION:
@@ -605,7 +605,7 @@ async def start(client, message):
         ],[
             InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/KingVJ01")
         ],[
-            InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
+            InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}')
         ]]
     else:
         button = [[
