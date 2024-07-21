@@ -64,9 +64,9 @@ PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) #
 # If PREMIUM_AND_REFERAL_MODE is True Then Fill Below Variable, If Flase Then No Need To Fill.
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month')
-PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/c3af4570243cd44201cc3.jpg')
+PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/df37dca3a58f01f419c09.jpg')
 PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '𝖡𝖾𝗌𝗍 𝖠𝗏𝖺𝗂𝗅𝖺𝖻𝗅𝖾 𝗉𝗅𝖺𝗇𝗌 👇🏻🎉 \n\n39₹ - 1 𝗐𝖾𝖾𝗄  😌 \n59₹ - 1 𝗆𝗈𝗇𝗍𝗁 😍 \n139₹ - 3 𝗆𝗈𝗇𝗍𝗁 🤩 \n220₹ - 6 𝗆𝗈𝗇𝗍𝗁 🥳 \n\n⭐ 𝖯𝗋𝖾𝗆𝗂𝗎𝗆 𝖿𝖾𝖺𝗍𝗎𝗋𝖾𝗌 😁😎 \n\n👉🏻 1 - 𝖭𝗈 𝗇𝖾𝖾𝖽 𝗍𝗈 𝗏𝖾𝗋𝗂𝖿𝗒 \n👉🏻 2 - 𝖭𝗈 𝗇𝖾𝖾𝖽 𝗍𝗈 𝗈𝗉𝖾𝗇 𝗅𝗂𝗇𝗄 \n👉🏻 3 - 𝖣𝗂𝗋𝖾𝖼𝗍 𝖿𝗂𝗅𝖾𝗌 \n👉🏻 4 - 𝖠𝖽-𝖿𝗋𝖾𝖾 𝖤𝗑𝗉𝖾𝗋𝗂𝖾𝗇𝖼𝖾 \n👉🏻 5 - 𝖧𝗂𝗀𝗁 - 𝗌𝗉𝖾𝖾𝖽 𝖽𝗈𝗐𝗇𝗅𝗈𝖺𝖽  \n👉🏻 6 - 𝖬𝗎𝗅𝗍𝗂 - 𝗉𝗅𝖺𝗒𝖾𝗋 𝗌𝗍𝗋𝖾𝖺𝗆𝗂𝗇𝗀 𝗅𝗂𝗇𝗄𝗌 \n👉🏻 7 - 𝖴𝗇𝗅𝗂𝗆𝗂𝗍𝖾𝖽 𝗆𝗈𝗏𝗂𝖾𝗌 & 𝗌𝖾𝗋𝗂𝖾𝗌 \n👉🏻 8 - 𝖥𝗎𝗅𝗅 𝖺𝖽𝗆𝗂𝗇 𝗌𝗎𝗉𝗉𝗈𝗋𝗍 \n👉🏻 9 - 𝖳𝗈𝗉 𝗉𝗋𝗂𝗈𝗋𝗂𝗍𝗒 𝖿𝗈𝗋 𝗂𝗌𝗌𝗎𝖾 𝗋𝖾𝗌𝗈𝗅𝗏𝗂𝗇𝗀 \n\n🎉 𝖴𝖯𝖨 - <code>ADITYASINGH102@JIO</code> \n\n✅ 𝖢𝗁𝖾𝖼𝗄 𝗒𝗈𝗎𝗋 𝖺𝖼𝗍𝗂𝗏𝖾 𝗉𝗅𝖺𝗇 - /myplan \n\n𝖲𝖾𝗇𝖽 𝗌𝖼𝗋𝖾𝖾𝗇𝗌𝗁𝗈𝗍 𝖺𝖿𝗍𝖾𝗋 𝖯𝖺𝗒𝗆𝖾𝗇𝗍 ℹ️')
-OWNER_USERNAME = environ.get('OWNER_USERNAME', 'kingvj01') # owner username without @
+OWNER_USERNAME = environ.get('OWNER_USERNAME', 'yd_query') # owner username without @
 
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/vj_bot_disscussion')
