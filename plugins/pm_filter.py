@@ -1984,29 +1984,25 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
+                InlineKeyboardButton('🔎 Search', url="https://telegram.me/yedekho"),
                 InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-                InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('ℹ️ Help', callback_data='help'),
                 InlineKeyboardButton('💛 Donate', callback_data='about')
             ],[
                 InlineKeyboardButton('⭐ Get premium for free ⭐', callback_data='subscription')
             ],[
-                InlineKeyboardButton('🎉 Recommendations', url=CHNL_LNK)
+                InlineKeyboardButton('🎉 Recommendations', url="https://telegram.me/yedekho_in")
             ]]
         else:
             buttons = [[
+                InlineKeyboardButton('🔎 Search', url="https://telegram.me/yedekho"),
                 InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-                InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('ℹ️ Help', callback_data='help'),
                 InlineKeyboardButton('💛 Donate', callback_data='about')
             ],[
-                InlineKeyboardButton('🎉 Recommendations', url=CHNL_LNK)
+                InlineKeyboardButton('🎉 Recommendations', url="https://telegram.me/yedekho_in")
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -2060,6 +2056,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
+             InlineKeyboardButton('🌡️ Any issues', url="https://telegram.me/yedekho_help")
+         ], [ 
              InlineKeyboardButton('⚙️ ᴀᴅᴍɪɴ ᴏɴʟʏ 🔧', callback_data='admin'),
          ], [ 
              InlineKeyboardButton('ʀᴇɴᴀᴍᴇ', callback_data='r_txt'),   
@@ -2095,16 +2093,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', url="https://github.com/VJBots/VJ-FILTER-BOT")
+            InlineKeyboardButton('❤️ Donate', url="https://tinyurl.com/28uprmz5")
         ],[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('No i will not Donate 🤡', callback_data='start')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
+            InputMediaPhoto(random.choice(DONATE_PIC))
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
