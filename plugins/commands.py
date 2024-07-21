@@ -46,8 +46,6 @@ async def start(client, message):
     if len(message.command) != 2:
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
-                InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
                 InlineKeyboardButton('🔎 Search', url="https://telegram.me/yedekho"),
                 InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
@@ -60,8 +58,6 @@ async def start(client, message):
             ]]
         else:
             buttons = [[
-                InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
                 InlineKeyboardButton('🔎 Search', url="https://telegram.me/yedekho"),
                 InlineKeyboardButton('🔥 Begin', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
